@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="artech.css">
+        <title>ArTech Digital</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="artech%20logo.jpg.jpg" alt="artechLogo">
+                <button id="themeButton">🌙</button>
+                <button id="menuButton" aria-label="Open navigation menu" aria-expanded="false"> ☰ </button>
+                
+                <ul id="navLinks">
+                    <li><a href="#" id="serviceLinks">Services</a></li>
+                    <li><a href="#" id="projectLinks">Projects</a></li>
+                    <li><a href="#" id="reviewLinks">Reviews</a></li>
+                    <li><a href="#" id="aboutLinks">About Us</a></li>
+                    <li><a href="#" id="blogLinks">Blog</a></li>
+                    <li><button id="contactLinks">Contact</button></li>
+                </ul>
+            </nav>
+                
+        </header>
+        
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <h2>
+                Build, Launch &amp; Scale Your Next Big Idea
+                With a Trusted AI &amp; Tech Partner
+            </h2>
+
+            <p>
+                From first idea to live product, we design,
+                build, and scale solutions that get funded,
+                win customers, and grow fast.
+            </p>
+
+            <a href="#contact" class="btn">
+                Get in Touch
+            </a>
+
+        </div>
+        
+        <div class="hero-side-text">
+
+            <img src="artech.png.png" alt="Artech Digital technology solutions">
+
+        </div>
+
+    </div>
+        </section>
+
+<section class="services-section" id="services">
+
+    <div class="services-heading">
+        <h2>Our Services</h2>
+        <p>Innovative digital solutions to help your business grow.</p>
+    </div>
+
+    <div class="service">
+
+        <div class="service-card">
+            <div class="service-img">
+                <img src="web%20design.jpg.jpeg" alt="Web Development">
+            </div>
+            <div class="service-content">
+                <h3>Web Development</h3>
+                <p>We turn ideas into practical digital solutions built around real users and business goals.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-img">
+                <img src="AI.jpg.jpeg" alt="AI Solutions">
+            </div>
+            <div class="service-content">
+                <h3>AI Solutions</h3>
+                <p>We use artificial intelligence to analyze information, automate tasks, and help businesses work smarter.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-img">
+                <img src="UI-UX.jpg.jpeg" alt="UI and UX Design">
+            </div>
+            <div class="service-content">
+                <h3>UI/UX Design</h3>
+                <p>We design intuitive, user-friendly digital experiences that make products easier and more enjoyable to use.</p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <div class="service-img">
+                <img src="performance%20opti.jpg.jpeg" alt="Digital Strategy">
+            </div>
+            <div class="service-content">
+                <h3>Digital Strategy</h3>
+                <p>We help businesses use digital channels and technologies strategically to achieve their objectives.</p>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+        
+        <section class="projects" id="projects">
+                
+    <input type="text" id="projectSearch" placeholder="Search projects...">
+    <p id="noResults" style="display: none;">No projects found.</p>
+
+    <h2>Our Projects</h2>
+
+    <p class="projects-intro">
+        Explore some of our recent projects and creative solutions.
+    </p>
+                
+<div class="project-filters">
+
+    <button class="filter-button active" data-filter="all">
+        All Projects
+    </button>
+
+    <button class="filter-button" data-filter="website">
+        Websites
+    </button>
+
+</div>
+
+
+
+    <div class="projects-container">
+        <div class="project-card" data-category="website">
+            <img src="restaurant1.jpg.jpeg" alt="Restaurant website">
+            
+            <div class="project-info">
+                <h3>Restaurant Website</h3>
+                <p>
+                    A modern restaurant website featuring an
+                    interactive menu and responsive design.
+                </p>
+                
+                <a href="../Rosario Ximena Grills/index.html"
+                   class="project-button">
+                    View Project
+                </a>
+                <button class="detailsBtn">View Details</button>
+                <p class="project-details" style="display: none;">
+                   Technologies: HTML, CSS, JavaScript.
+                   Features: Responsive design and interactive menu.
+                </p>
+            </div>
+        </div>
+        
+        <div class="project-card" data-category="website">
+            <img src="bankinglogo2.jpeg" alt="Banking Q website">
+            
+            <div class="project-info">
+
+                <h3>Banking Q</h3>
+                <p>
+                    Banking Q is a modern digital banking platform designed 
+                    to make managing money simple, secure, and convenient.
+                </p>
+
+                <a href="../Banking Q/banking.html"
+                   class="project-button">
+                    View Project
+                </a>
+                <button class="detailsBtn">View Details</button>
+
+                <p class="project-details" style="display: none;">
+                    From smart savings and personal finance management to seamless digital,
+                    banking solutions,we empower individuals to take control of their finances,
+                    make smarter financial decisions, and build a better financial future.
+                </p>
+
+            </div>
+        </div>
+        
+        <div class="project-card" data-category="website">
+            <img src="logoskill.jpg.jpeg" alt="Personal portfolio website">
+
+            <div class="project-info">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A personal website showcasing skills,
+                    projects, and frontend development experience.
+                </p>
+
+                <a href="../p portfolio js/pportfolio.html"
+                   class="project-button">
+                    View Project
+                </a>
+                <button class="detailsBtn">View Details</button>
+
+                <p class="project-details" style="display: none;">
+                   Technologies: HTML, CSS, JavaScript.
+                   Features: Personal introduction, skills showcase, project gallery,
+                   and responsive layout.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+        
+        <section class="review-section" id="reviews">
+            <h3>Review Section</h3>
+        <div class="review-container">
+            <div class="review active">
+                <img src="testimonial1.jpeg.jpeg" alt="testimonial1">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"For our team, the clarity and simplicity of the platform 
+                    is invaluable when making strategic content decision"</p>
+                <h3>Alexander</h3>
+            </div>
+            <div class="review">
+                <img src="testimonial2.jpeg.jpeg" alt="testimonial2">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+               <p>"ArTech Digital understood our vision and helped us turn 
+                   our ideas into a clean, professional digital experience." </p>
+                <h3>Sarah</h3>
+            </div>
+            <div class="review">
+                <img src="testimonial3.jpeg.jpeg" alt="testimonial3">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The design was modern, easy to use,and worked beautifully 
+                    across different screen sizes. Great attention to detail." </p>
+                <h3>Rita</h3>
+            </div>
+            <button id="prevBtn">❮</button>
+            <button id="nextBtn">❯</button>
+            </div>
+        </section>
+<section class="about" id="about">
+
+    <div class="about-content">
+
+        <span class="about-label">ABOUT US</span>
+
+        <h2>We Turn Ideas Into Digital Experiences</h2>
+
+        <p>
+            At Artech Digital, we transform creative ideas into
+            modern digital solutions that help businesses grow
+            and connect with their audiences.
+        </p>
+
+        <p>
+            Our focus is on building responsive websites,
+            intuitive user experiences, and innovative digital
+            products that combine creativity with functionality.
+        </p>
+
+        <a href="#contact" class="about-button">
+            Discover Our Approach
+        </a>
+
+    </div>
+
+    <div class="about-image">
+       <img src="artectabt%20us.png" alt="Modern digital technology and innovation">
+    </div>
+
+</section>
+        
+<section class="blog" id="blog">
+
+    <div class="blog-heading">
+
+        <span class="blog-label">OUR BLOG</span>
+
+        <h2>Insights & Latest Articles</h2>
+
+        <p>
+            Explore ideas, insights, and practical tips
+            about technology, design, and web development.
+        </p>
+
+    </div>
+
+    <div class="blog-container">
+
+       
+        <article class="blog-card">
+
+            <img src="blog1.png" alt="Web development workspace">
+
+            <div class="blog-content">
+
+                <span class="blog-category">Web Development</span>
+
+                <h3>5 Ways to Improve Your Website</h3>
+
+                <p>
+                    Discover practical ways to make your website
+                    faster, more attractive, and easier to use.
+                </p>
+
+                <a href="blog/web-dev.html"
+                   class="blog-button">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="blog-card">
+
+            <img src="blog2.png" alt="Modern website design">
+            
+            <div class="blog-content">
+
+                <span class="blog-category">UI/UX Design</span>
+
+                <h3>Why User Experience Matters</h3>
+
+                <p>
+                    Learn how thoughtful design helps visitors
+                    navigate websites and find what they need.
+                </p>
+
+                <a href="blog2/ui.html"
+                   class="blog-button">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+        <article class="blog-card">
+
+            <img src="blog3.jpg.jpeg" alt="Artificial intelligence technology">
+
+            <div class="blog-content">
+
+                <span class="blog-category">Technology</span>
+
+                <h3>The Future of Artificial Intelligence</h3>
+
+                <p>
+                    Explore how artificial intelligence is
+                    changing digital products and businesses.
+                </p>
+
+                <a href="blog3/tech.html"
+                   class="blog-button">
+                    Read More →
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+        </section>
+   
+<section class="contact" id="contact">
+
+    <div class="contact-heading">
+        <span class="contact-label">GET IN TOUCH</span>
+
+        <h2>Let's Build Something Great Together</h2>
+
+        <p>
+            Have a project in mind? We'd love to hear from you.
+            Send us a message and let's discuss your ideas.
+        </p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Contact Information</h3>
+
+            <p>
+                Let's talk about your next digital project
+                and how we can bring your ideas to life.
+            </p>
+
+            <div class="contact-item">
+                <span>📧</span>
+                <h4>Email</h4>
+                <p>elukealexander@gmail.com</p>
+            </div>
+
+            <div class="contact-item">
+                <span>📞</span>
+                <h4>Phone</h4>
+                <p>+234 8168658139</p>
+            </div>
+
+            <div class="contact-item">
+                <span>📍</span>
+                <h4>Location</h4>
+                <p>Available for projects worldwide</p>
+            </div>
+
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+
+                <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Enter your full name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What is your project about?"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Your Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required
+                ></textarea>
+            </div>
+            
+            <button type="submit" class="contact-button">
+              Send Message
+            </button>
+               
+            <p id="formMessage" aria-live="polite"></p>
+
+        </form>
+
+    </div>
+
+</section>
+        
+ <footer class="footer">
+    <div class="footer-container">
+
+    <div class="footer-about">
+        <img src="artech%20logo.jpg.jpg" alt="ArTech Digital Logo">
+
+        <p>
+            We build innovative digital solutions that help businesses
+            grow, connect with customers, and achieve more through technology.
+        </p>
+    </div>
+
+    <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-services">
+        <h3>Our Services</h3>
+        <ul>
+            <li>Web Development</li>
+            <li>AI Solutions</li>
+            <li>UI/UX Design</li>
+            <li>Digital Strategy</li>
+        </ul>
+    </div>
+
+    <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: elukealexander@gmail.com</p>
+        <p>Phone: +234 816 865 8139</p>
+    </div>
+
+</div>
+
+<div class="footer-bottom">
+    <p>&copy; 2026 Artech Digital. All rights reserved.</p>
+</div>
+
+</footer>
+        
+   <script src="artech.js"></script>
+    </body>
+</html>
